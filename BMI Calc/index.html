@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calc</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h2 class="head">Calculate your BMI (Body Mass Index)</h2>
+      </div>
+      <div class="main">
+        <div class="weight-div">
+          <input type="range" min="20" max="200" class="weight" /><label
+            id="weight-label"
+            >40 kg</label
+          >
+        </div>
+        <div class="height-div">
+          <input type="range" min="20" max="270" class="height" /><label
+            id="height-label"
+            >145 cm</label
+          >
+        </div>
+
+        <h2 id="bmi">45.7</h2>
+        <h2 id="category">Obese</h2>
+      </div>
+    </div>
+  </body>
+</html>
